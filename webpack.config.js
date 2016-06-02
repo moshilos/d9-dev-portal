@@ -3,10 +3,10 @@
  */
 module.exports = {
     entry: {
-        app: ['./src/index.js']
+        app: ['./src/client/index.js']
     },
     output: {
-        path: './../public/js',
+        path: './public/js',
         filename: "app.js"
     },
     module: {
