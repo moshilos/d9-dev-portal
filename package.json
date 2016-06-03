@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "trash public/js --force && webpack-dev-server -d --config webpack.config.live.js --progress --content-base public/ --hot --inline"
+    "dev": "trash public/js --force && webpack-dev-server -d --config webpack.config.live.js --progress --content-base public/ --hot --inline",
+    "start": "sudo node index.js"
   },
   "dependencies": {
     "2": "0.0.1",
